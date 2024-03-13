@@ -1,0 +1,182 @@
+.container {
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+  color: #020024;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 20px;
+  max-width: auto; /* Adjust this value based on your design */
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  color: #142d4c;
+  font-family: 'Dancing Script', cursive;
+  font-weight: lighter;
+  font-size: 30px;
+  transition: color 0.3s ease;
+  display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: dotted 3px;
+  width: 80%;
+  margin-bottom: 40px;
+  background: #FEFBF6;
+}
+
+h1:after {
+  content: "Get to know me better";
+  display: block;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+ h1:hover:after {
+  opacity: 1;
+  color: white;
+  background: #020024;
+}
+
+h2 {
+    color: #c3195d;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: Papyrus;
+}
+
+a {
+  text-decoration: none;
+  color: #113f67;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #c3195d;
+}
+
+
+.portret-position {
+  object-position: center;
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.center {
+  text-align: center;
+  width: 50%;
+  background: #FEFBF6;
+  box-shadow: 20px 30px 20px rgba(50, 50, 93, 0.1);
+  padding: 30px;
+  margin: auto;
+}
+
+.btm-center {
+  margin: auto;
+  width: 80%;
+  border: 3px dotted #020024;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  background: #FEFBF6;
+}
+
+.intro {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.intro p {
+  font-size: 30px;
+}
+
+.white-box {
+  background: #FEFBF6;
+  width: 92%;
+  padding: 30px;
+  margin-top: 10px;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: justify;
+  box-shadow: 20px 30px 20px rgba(50, 50, 93, 0.1);
+}
+
+.list-line {
+  list-style-type: none;
+  padding: 0px;
+  text-align: center;
+}
+
+.list-line li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+.text-center {
+  border: 3px dotted #020024;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: auto; /* Set left margin to auto */
+  margin-right: auto; /* Set right margin to auto */
+  text-align: center;
+  background: #FEFBF6;
+}
+
+
+.description-background {
+  background-image: linear-gradient(180deg, #c3195d, #FEFBF6);
+  width: 80%;
+  padding: 60px;
+  margin: 0 auto;
+  min-height: 100px; /* Add a minimum height */
+  margin-bottom: 40px;
+}
+
+/* Media query for smaller viewport widths */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  body {
+    width: 700px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 760px) {
+  body {
+    width: 400px;
+    text-align: center;
+  }
+  img {
+    max-width: 150px;
+    max-height: 170px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  body {
+    width: 500px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  body {
+    width: 400px;
+    text-align: center;
+    }
+}
+
+/*Import google fonts*/
